@@ -56,7 +56,7 @@ export const BentoGridItem = ({
 
   const [copied, setCopied] = useState(false)
   const handleCopy = () => {
-    navigator.clipboard.writeText('lukeeplr@gmail.com')
+    navigator.clipboard.writeText('thebridgedevelop@gmail.com')
 
     setCopied(true)
   }
@@ -76,7 +76,7 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && 'flex justify-center'} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-            <img 
+            <img
               src={img}
               alt={img}
               className={cn(imgClassName, 'object-center object-cover')}
@@ -85,7 +85,7 @@ export const BentoGridItem = ({
         </div>
         <div className={`absolute right-0 -bottom-5 ${id === 5 && 'w-full opacity-80'}`}>
           {spareImg && (
-            <img 
+            <img
               src={spareImg}
               alt={spareImg}
               className='object-center object-cover w-full h-full'
@@ -104,7 +104,7 @@ export const BentoGridItem = ({
           <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
           {title}
           </div>
-        
+
 
         {id === 2 && (
           <GlobeDemo />
@@ -123,7 +123,7 @@ export const BentoGridItem = ({
               {servicesRight.map((service) => (
                 <span key={service.name} className="py-2 lg:py-4 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">{service.name}</span>
               ))}
-            </div>  
+            </div>
           </div>
         )}
 
@@ -131,7 +131,7 @@ export const BentoGridItem = ({
           <div className="mt-5 relative">
             <div className={`absolute -bottom-5 right-0`}>
               <Lottie options={{
-                loop: copied, 
+                loop: copied,
                 autoplay: copied,
                 animationData,
                 rendererSettings: {
@@ -140,9 +140,9 @@ export const BentoGridItem = ({
               }} />
             </div>
 
-            <MagicButton 
-              title={copied ? 'E-mail copiado!' : 'Copiar e-mail'} 
-              icon={<Copy />} 
+            <MagicButton
+              title={copied ? 'E-mail copiado!' : 'Copiar e-mail'}
+              icon={<Copy />}
               position="left"
               handleClick={handleCopy}
               className="!bg-[#161a31]"
