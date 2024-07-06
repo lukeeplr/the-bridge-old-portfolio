@@ -8,14 +8,14 @@ export const navItems = [
 export const servicesLeft = [
   {name: 'Websites'},
   {name: 'Apps'},
-  
+
 ]
 
 export const servicesRight = [
   {name: 'Sistemas'},
   {name: 'Integrações'},
 ]
-  
+
   export const gridItems = [
     {
       id: 1,
@@ -57,7 +57,7 @@ export const servicesRight = [
       img: "/grid.svg",
       spareImg: "/b4.svg",
     },
-  
+
     {
       id: 5,
       title: "Seu projeto, nossa paixão pelo desenvolvimento",
@@ -79,7 +79,7 @@ export const servicesRight = [
       spareImg: "",
     },
   ];
-  
+
   export const projects = [
     {
       id: 1,
@@ -114,40 +114,32 @@ export const servicesRight = [
       link: "/#projetos",
     },
   ];
-  
+
   export const testimonials = [
     {
       quote:
         "Colaborar com a The Bridge foi um absoluto prazer. O profissionalismo, a pontualidade e a dedicação em entregar resultados excepcionais foram evidentes durante todo o nosso projeto. O entusiasmo da The Bridge por cada aspecto do desenvolvimento realmente se destaca. Se você está procurando elevar seu site e sua marca, a The Bridge é a parceira ideal.",
-      name: "Matheus Vinagre",
+      name: "José Antônio Marques",
       title: "Empreendedor",
+      pic: '/matheus.svg'
     },
     {
       quote:
-        "Colaborar com a The Bridge foi um absoluto prazer. O profissionalismo, a pontualidade e a dedicação em entregar resultados excepcionais foram evidentes durante todo o nosso projeto. O entusiasmo da The Bridge por cada aspecto do desenvolvimento realmente se destaca. Se você está procurando elevar seu site e sua marca, a The Bridge é a parceira ideal.",
-      name: "Matheus Vinagre",
-      title: "Empreendedor",
+        "A equipe foi muito atenciosa e conseguiu compreender bem todas as nossas necessidades. O projeto foi bem planejado e executado de forma eficiente, resultando em um produto final que superou nossas expectativas. Durante todo o processo, a comunicação foi clara e eficaz. Estamos muito satisfeitos com a parceria e sem dúvidas, recomendaríamos a The Bridge para quem busca qualidade e comprometimento.",
+      name: "Leonardo Bento",
+      title: "Desenvolvedor",
+      pic: '/leonardo.svg'
     },
     {
       quote:
-        "Colaborar com a The Bridge foi um absoluto prazer. O profissionalismo, a pontualidade e a dedicação em entregar resultados excepcionais foram evidentes durante todo o nosso projeto. O entusiasmo da The Bridge por cada aspecto do desenvolvimento realmente se destaca. Se você está procurando elevar seu site e sua marca, a The Bridge é a parceira ideal.",
-      name: "Matheus Vinagre",
+        "Profissionalismo, criatividade e suporte incríveis. A The Bridge superou nossas expectativas em todos os aspectos e sempre esteve disponível para sanar nossas dúvidas. Definitivamente, vocês foram uma peça muito importante para atingir nosso objetivo, espero poder trabalhar com vocês novamente. Recomendo sem hesitação!",
+      name: "Fellipe Simas",
       title: "Empreendedor",
-    },
-    {
-      quote:
-        "Colaborar com a The Bridge foi um absoluto prazer. O profissionalismo, a pontualidade e a dedicação em entregar resultados excepcionais foram evidentes durante todo o nosso projeto. O entusiasmo da The Bridge por cada aspecto do desenvolvimento realmente se destaca. Se você está procurando elevar seu site e sua marca, a The Bridge é a parceira ideal.",
-      name: "Matheus Vinagre",
-      title: "Empreendedor",
-    },
-    {
-      quote:
-        "Colaborar com a The Bridge foi um absoluto prazer. O profissionalismo, a pontualidade e a dedicação em entregar resultados excepcionais foram evidentes durante todo o nosso projeto. O entusiasmo da The Bridge por cada aspecto do desenvolvimento realmente se destaca. Se você está procurando elevar seu site e sua marca, a The Bridge é a parceira ideal.",
-      name: "Matheus Vinagre",
-      title: "Empreendedor",
+      pic: '/fellipe.svg'
     },
   ];
-  
+
+
   export const companies = [
     // {
     //   id: 1,
@@ -180,7 +172,7 @@ export const servicesRight = [
     //   nameImg: "/dockerName.svg",
     // },
   ];
-  
+
   export const workAreas = [
     {
       id: 1,
@@ -233,7 +225,7 @@ export const approachData = [
     desc: 'Na fase de Implantação e Lançamento, preparamos os usuários para a utilização eficiente do sistema através de treinamentos detalhados. Após garantir que todos estejam confortáveis com a nova ferramenta, lançamos o projeto oficialmente. Nosso suporte contínuo assegura uma transição suave e um início bem-sucedido para seu novo software.'
   }
 ]
-  
+
   export const socialMedia = [
     {
       id: 1,
