@@ -8,7 +8,7 @@ function Footer() {
         <div className="flex flex-col items-center">
             <h1 className="heading lg:max-w-[45vw]">Vamos levar <span className="text-purple">presença digital</span> para o <span className="text-purple">próximo nível</span>?</h1>
             <p className="text-white-200 md:mt-10 my-5 text-center">Entre em contato hoje e vamos discutir como podemos te ajudar a atingir seus objetivos.</p>
-            <a href="mailto:thebridgedevelop@gmail.com">
+            <a href="http://wa.me/5515996009508">
                 <MagicButton title="Entrar em contato" icon={<Send />} position="right"/>
             </a>
         </div>
